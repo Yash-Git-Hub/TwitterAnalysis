@@ -9,13 +9,7 @@ import re
 import matplotlib.pyplot as plt
 from PIL import Image
 import seaborn as sns
-
-
-
-consumerKey = ""
-consumerSecret = ""
-accessToken = ""
-accessTokenSecret = ""
+from config import consumerKey,consumerSecret,accessToken,accessTokenSecret
 
 
 #Create the authentication object
